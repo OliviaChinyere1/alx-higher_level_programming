@@ -5,6 +5,6 @@ if __name__ == '__main__':
     cnt = 1
 
     while cnt < len(argv):
-	res += int(argv[cnt])
-	cnt += 1
+        res += int(argv[cnt])
+        cnt += 1
     print(res)
