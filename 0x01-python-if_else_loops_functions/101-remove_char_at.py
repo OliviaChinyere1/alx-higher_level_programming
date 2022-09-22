@@ -5,9 +5,9 @@ def remove_char_at(str, n):
     count = 0
     str_copy = ""
     for element in str:
-        if count == n:
-            count += 1
-            continue
-        str_copy += str[count]
+    if count == n:
+    count += 1
+        continue
+    str_copy += str[count]
         count += 1
-    return str_copy
+        return str_copy
