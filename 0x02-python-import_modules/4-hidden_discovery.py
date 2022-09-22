@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+import hidden_4
+
+
+def principal():
+    for i in dir(hidden_4):
+        if not (i[0] == '_' and i[1] == '_'):
+            print(i)
+
+
 if __name__ == "__main__":
-	import sys
-	import hidden_4
-	for n in dir(hidden_4):
-		if n[:2] != "__":
-		print(n)
+    principal()
